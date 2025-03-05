@@ -21,6 +21,12 @@ head {
   display: none;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
 /*
   Estilos Logo del navegador
 */
@@ -79,6 +85,7 @@ a {
   Estilos de MAIN
   Estilos seccion-1
 */
+
 .seccion-1 {
   align-items: center;
   display: flex;
@@ -102,4 +109,97 @@ a {
 
 .parrafo2 {
   width: 500px;
+}
+
+.acerca-imagen {
+  width: 46%;
+  height: auto;
+}
+
+.acerca-imagen img {
+  width: 100%;
+  height: auto;
+}
+/*
+  Estilos seccion-2
+  Carrusel Fotos
+*/
+
+.seccion-2 {
+  width: 100vw;
+  max-width: 100%;
+  overflow: hidden;
+  position: relative;
+  margin: 30px 0px 30px 0px;
+  padding: 0;
+}
+
+.seccion-2 ul {
+  display: flex;
+  width: calc(900px * 7);
+  animation: slide 35s linear infinite;
+  padding: 0;
+  margin: 0;
+}
+
+.seccion-2 li {
+  min-width: 900px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.seccion-2 img {
+  width: 900px;
+  height: 500px;
+  object-fit: cover;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-5400px);
+  }
+}
+
+/*
+  Estilos section canciones
+*/
+
+.canciones {
+  margin: 0 8% 0 8%;
+}
+.canciones h2 {
+  font-size: 350%;
+  margin-bottom: 2%;
+}
+
+.contenedores-canciones {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cancion {
+  padding-right: 3%;
+}
+
+.contenedores-canciones div h3 {
+  font-size: 250%;
+  margin-bottom: 2%;
+}
+
+.contenedores-canciones div p {
+  font-size: 150%;
+}
+
+.imagen-cancion {
+  width: 70%;
+  margin-bottom: 2%;
+}
+
+.imagen-cancion img {
+  width: 100%;
 }
