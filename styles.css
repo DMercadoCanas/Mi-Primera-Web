@@ -203,3 +203,38 @@ a {
 .imagen-cancion img {
   width: 100%;
 }
+
+/*
+  Estilos Formulario (.formulario)
+*/
+
+.contenedor-formulario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.contenedor-formulario h2 {
+  font-size: 350%;
+}
+
+.contenedor-formulario label {
+  font-size: 180%;
+}
+
+.contenedor-formulario input {
+  width: 50%;
+}
+
+.contenedor-formulario ul {
+  list-style: none;
+  border: grey 1px solid;
+  border-radius: 2%;
+  padding: 0 10% 0 10%;
+}
+
+.contenedor-formulario li {
+  margin-bottom: 2%;
+}
