@@ -100,6 +100,7 @@ a {
 }
 .acerca-de h2 {
   font-size: 80px;
+  color: #f39c12;
 }
 
 .acerca-de p {
@@ -174,6 +175,7 @@ a {
 .canciones h2 {
   font-size: 350%;
   margin-bottom: 2%;
+  color: #f39c12;
 }
 
 .contenedores-canciones {
@@ -189,6 +191,7 @@ a {
 .contenedores-canciones div h3 {
   font-size: 250%;
   margin-bottom: 2%;
+  color: #f39c12;
 }
 
 .contenedores-canciones div p {
@@ -214,33 +217,110 @@ a {
   align-items: center;
   flex-direction: column;
   margin-top: 30px;
-  border: #fff 1px solid;
+  margin-bottom: 30px;
   height: 900px;
 }
 
 .contenedor-formulario h2 {
   font-size: 350%;
+  margin-bottom: 0.2%;
+  color: #f39c12;
+}
+
+.contenedor-formulario h3 {
+  font-size: 200%;
+  margin-bottom: 1%;
 }
 
 .contenedor-formulario label {
   font-size: 180%;
+  text-align: end;
+  width: 120px;
+  margin-right: 3%;
 }
 
 .contenedor-formulario input {
-  width: 100%;
-  height: 80%;
+  width: 70%;
+  height: 60%;
+  border-radius: 10px;
 }
 
 .contenedor-formulario ul {
   list-style: none;
   border: grey 1px solid;
-  border-radius: 2%;
-  width: 50%;
-  padding: 0 10% 0 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+  height: 80%;
+  padding: 3% 20% 3% 20%;
+  border-radius: 10px;
 }
 
 .contenedor-formulario li {
+  display: flex;
+
   margin-bottom: 2%;
-  border: #fff 1px solid;
   width: 100%;
+  height: 10%;
+}
+
+.contenedor-formulario .mensaje {
+  height: 50%;
+}
+
+.contenedor-formulario textarea {
+  width: 70%;
+  height: 80%;
+  border-radius: 10px;
+}
+
+.contenedor-formulario .button {
+  width: 20%;
+}
+
+.contenedor-formulario .button button {
+  width: 100%;
+  height: 100%;
+  font-size: 180%;
+  background-color: #f39c12;
+}
+
+/*
+  Estilos footer
+*/
+
+footer {
+  padding-top: 1%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: grey;
+}
+
+footer h3 {
+  font-size: 200%;
+  color: #f39c12;
+  background-color: grey;
+}
+
+.caja-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  width: 20%;
+  height: 80%;
+
+  background-color: grey;
+}
+
+.caja-footer li {
+  margin-bottom: 2%;
+  font-size: 140%;
+  background-color: grey;
 }
